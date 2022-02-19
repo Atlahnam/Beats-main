@@ -1,0 +1,52 @@
+// width
+$containerwidth: 940px;
+$basefontsize: 16px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//function
+@import "./layout/media";
+
+/* Layout */
+@import "./layout/base";
+
+/* header */
+@import "components/header";
+@import "components/menu";
+@import "components/contacts";
+/* hamburger */
+@import "components/hamburger";
+
+/* section hero */
+@import "components/hero";
+@import "components/button";
+@import "components/features";
+
+/* section benefit */
+@import "components/benefit";
+/* section product */
+@import "components/product";
+/* section team */
+@import "components/team";
+/*section colors-menu */
+@import "components/colors-menu";
+/* section reviews */
+@import "components/reviews";
+/* section player */
+@import "components/player";
+/* section order */
+@import "components/order";
+@import "components/form";
+/* section map */
+@import "components/map";
+/* footer */
+@import "components/footer";
+@import "components/socials";
+/* pagination */
+@import "components/pagination";
+/* modal */
+@import "components/modal";
+/*tablets-menu */
+@import "components/_tablets-menu";
